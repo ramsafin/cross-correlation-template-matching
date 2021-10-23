@@ -1,4 +1,4 @@
-# Задание: кросс-корреляция и нахождение объектов на изображении
+# Кросс-корреляция и нахождение объектов на изображении
 
 Используя двумерную кросс-корреляцию (свертку) найдите шаблон на изображении.
 
@@ -30,7 +30,7 @@
 
 Cross-correlation can be used to look for templates in the images.
 
-### 1. Implement "find the template" on the shelf fucntinality using cross-correlation.
+### 1. Implement "find the template" on the shelf fucntionality using cross-correlation.
 
 `Note!` The template is located in the 1st row of the shelf (the 2nd element from the left).
 
@@ -39,7 +39,7 @@ Cross-correlation can be used to look for templates in the images.
 ---
 
 <p align="center">
-  <img src="pictures/shelf.png">
+  <img src="figures/shelf.png">
   <p align="center">
     <b>Figure 1.</b>
     <i>Shelf (with cereals for a good breakfast)</i>
@@ -47,10 +47,10 @@ Cross-correlation can be used to look for templates in the images.
 </p>
 
 <p align="center">
-  <img src="pictures/template.jpg">
+  <img src="figures/template.jpg">
   <p align="center">
     <b>Figure 2.</b>
-    <i>Template (favorite)</i>
+    <i>Template (cereals)</i>
   </p>
 </p>
 
@@ -66,17 +66,13 @@ Check the result on the dark shelf image.
 
 
 <p align="center">
-  <img src="pictures/dark%20shelf.jpg">
+  <img src="figures/dark%20shelf.jpg">
   <p align="center">
     <b>Figure 3.</b>
     <i>Dark shelf (everything has its dark side)</i>
   </p>
 </p>
 
-<details>
-  <summary>Solution</summary>
-  
-  See [find_favorite examples](examples/find_favorite.ipynb).
-  
-  _In this case the match is correct._
-</details>
+## Общие рекомендации
+- за помощью можно обращаться к друг другу и даже работать вместе;
+- в папке [demo](demo) есть примеры ноутбуков и кода на Matlab. 
